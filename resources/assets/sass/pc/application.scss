@@ -1,0 +1,127 @@
+// Bootstrap
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+
+/***************
+ * Override
+ ***************/
+/* http://sfc.jp/ie/common/css/navi.css */
+div#ieSubNavi {
+  width: 920px;
+  margin: 0 auto;
+}
+
+/***************
+ * sfc_kinoie201701
+ ***************/
+#sfc_kinoie201701 {
+  padding-top: 14px;
+
+  .section {
+    padding-top: 0;
+
+    &.is-6 {
+      padding-bottom: 6px;
+    }
+
+    &.is-10 {
+      padding-bottom: 10px;
+    }
+
+    &.is-25 {
+      padding-bottom: 25px;
+    }
+
+    &.is-40 {
+      padding-bottom: 40px;
+    }
+  }
+
+  .collapse {
+    padding-top: 25px;
+  }
+
+  img.pointer {
+    cursor: pointer;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    color: #333333;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+  }
+
+  .btn-primary {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: #0044cc #0044cc #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    &.disabled,
+    &[disabled] {
+      color: #ffffff;
+      background-color: #0044cc;
+    }
+  }
+
+  .btn-success {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #5bb75b;
+    background-image: -moz-linear-gradient(top, #62c462, #51a351);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+    background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+    background-image: -o-linear-gradient(top, #62c462, #51a351);
+    background-image: linear-gradient(to bottom, #62c462, #51a351);
+    background-repeat: repeat-x;
+    border-color: #51a351 #51a351 #387038;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    &.disabled,
+    &[disabled] {
+      color: #ffffff;
+      background-color: #51a351;
+    }
+  }
+
+  a.btn {
+    height: 46px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 28px;
+  }
+
+  button.btn {
+    height: 64px;
+    font-size: 28px;
+  }
+
+  .gtop {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+  }
+}

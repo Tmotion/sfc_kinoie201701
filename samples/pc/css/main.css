@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+li{list-style:none;}
+
+
+
+.mainContents {
+	width: 980px;
+	margin: 0 auto;
+	background:#fff;
+	color:#333;
+	line-height:1.2;
+
+}
+
+#container{
+	width:1200px;
+	height:3500px;
+	margin: 0 auto;
+	border:1px solid #ccc;
+
+}
+/*
+a:hover img{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	-ms-filter: "alpha(opacity=80)";
+	}		
+*/
+.estate_cp{
+	margin: 0 auto ;
+	width:980px;
+	padding-bottom:30px;
+}
+.estate_cp h1{
+margin-top:30px;
+}
+.estate_cp .estate_txt{
+	font-size:15px;
+	margin-top:13px;
+		text-align:left;
+}
+.estate_cp dd img{
+	text-align:left;
+
+}
+/*---------------------------*/
+
+.estate_cp .sh_box{
+	width:950px;
+	box-shadow:1px 1px 5px 1px #ccc;
+	margin: 0 auto;
+	margin-top:30px;
+	padding:0px;
+	position:relative;
+	padding-bottom:20px;
+	text-align:left;
+	font-size:15px;
+}
+
+.estate_cp .sh_box li{
+	float:left;
+}
+.estate_cp .sh_box li:nth-child(1){
+	height:230px;
+	float:left;
+	padding:15px ;
+	margin-right:0px;
+}
+
+
+.sh_box li:nth-child(2){
+	float:left;
+
+}
+.estate_span{
+	font-size:25px;
+	padding-top:20px;
+	margin-bottom:30px;
+	display:block;
+
+}
+.estate_cp .sh_box .anthor_btn{
+	position:absolute;
+	bottom:15px;
+	right:30px;
+}
+.estate_orange{color:#F29700;}
+.estate_green{color:#009B63;}
+.estate_blue{color:#016CB8;}
+/*----------------------------------------------------
+--------------クリアフィックス------------------------
+-----------------------------------------------------*/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/*-----------------------------------------------------
+	クリアフィックスその2
+------------------------------------------------------*/
+
+.clearfix:after { /*floatの解除、ここがポイント*/
+	display:block;
+	clear:both;
+	height:0px;
+	visibility:hidden;
+	content:".";
+
+}
+.clearfix {
+	min-height: 1px; /*IE6、7対策*/
+	
+}
+* html .clearfix {
+	height: 1px;
+	/*\*//*/ /*MAC IE5.x対策*/
+	height: auto;
+	overflow: hidden;
+	/**/
+}
+
+
+.estate_cp .contact{
+	text-align:center;
+	margin-top:35px;
+}
+
+
+.estate_cp .gtop{
+	position:fixed;
+	bottom:30px;
+	right:40px;
+}
+
+	
