@@ -58,18 +58,27 @@ div#ieSubNavi {
     transition: background-position 0.1s linear;
   }
 
+
   .btn-primary {
+    -moz-box-shadow: 2px 3px 0px 0px #b5b5b5;
+    -webkit-box-shadow: 2px 3px 0px 0px #b5b5b5;
+    box-shadow: 2px 3px 0px 0px #b5b5b5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #009fe8), color-stop(1, #182987));
+    background: -moz-linear-gradient(top, #009fe8 5%, #182987 100%);
+    background: -webkit-linear-gradient(top, #009fe8 5%, #182987 100%);
+    background: -o-linear-gradient(top, #009fe8 5%, #182987 100%);
+    background: -ms-linear-gradient(top, #009fe8 5%, #182987 100%);
+    background: linear-gradient(to bottom, #009fe8 5%, #182987 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009fe8', endColorstr='#182987',GradientType=0);
+    background-color: #009fe8;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
     color: #ffffff;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #006dcc;
-    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-    background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
-    background-repeat: repeat-x;
-    border-color: #0044cc #0044cc #002a80;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    text-decoration: none;
 
     &:hover,
     &:focus,
@@ -77,23 +86,38 @@ div#ieSubNavi {
     &.active,
     &.disabled,
     &[disabled] {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #182987), color-stop(1, #009fe8));
+      background: -moz-linear-gradient(top, #182987 5%, #009fe8 100%);
+      background: -webkit-linear-gradient(top, #182987 5%, #009fe8 100%);
+      background: -o-linear-gradient(top, #182987 5%, #009fe8 100%);
+      background: -ms-linear-gradient(top, #182987 5%, #009fe8 100%);
+      background: linear-gradient(to bottom, #182987 5%, #009fe8 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#182987', endColorstr='#009fe8',GradientType=0);
+      background-color: #182987;
       color: #ffffff;
-      background-color: #0044cc;
     }
   }
 
   .btn-success {
+    -moz-box-shadow: 2px 3px 0px 0px #b5b5b5;
+    -webkit-box-shadow: 2px 3px 0px 0px #b5b5b5;
+    box-shadow: 2px 3px 0px 0px #b5b5b5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #90c42f), color-stop(1, #0f9461));
+    background: -moz-linear-gradient(top, #90c42f 5%, #0f9461 100%);
+    background: -webkit-linear-gradient(top, #90c42f 5%, #0f9461 100%);
+    background: -o-linear-gradient(top, #90c42f 5%, #0f9461 100%);
+    background: -ms-linear-gradient(top, #90c42f 5%, #0f9461 100%);
+    background: linear-gradient(to bottom, #90c42f 5%, #0f9461 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90c42f', endColorstr='#0f9461',GradientType=0);
+    background-color: #90c42f;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
     color: #ffffff;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #5bb75b;
-    background-image: -moz-linear-gradient(top, #62c462, #51a351);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
-    background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-    background-image: -o-linear-gradient(top, #62c462, #51a351);
-    background-image: linear-gradient(to bottom, #62c462, #51a351);
-    background-repeat: repeat-x;
-    border-color: #51a351 #51a351 #387038;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    text-decoration: none;
 
     &:hover,
     &:focus,
@@ -102,7 +126,14 @@ div#ieSubNavi {
     &.disabled,
     &[disabled] {
       color: #ffffff;
-      background-color: #51a351;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0f9461), color-stop(1, #90c42f));
+      background: -moz-linear-gradient(top, #0f9461 5%, #90c42f 100%);
+      background: -webkit-linear-gradient(top, #0f9461 5%, #90c42f 100%);
+      background: -o-linear-gradient(top, #0f9461 5%, #90c42f 100%);
+      background: -ms-linear-gradient(top, #0f9461 5%, #90c42f 100%);
+      background: linear-gradient(to bottom, #0f9461 5%, #90c42f 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f9461', endColorstr='#90c42f',GradientType=0);
+      background-color: #0f9461;
     }
   }
 
