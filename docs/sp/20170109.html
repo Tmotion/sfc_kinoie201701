@@ -24,7 +24,99 @@
 <body>
 <!--#include virtual="/common/ssi/gtag.html"-->
 
-<header id="global-header" class="global-header"></header>
+<!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+<header id="global-header" class="global-header">
+    <a href="javascript:http_location('/');">
+        <img src="http://sfc.jp/sp/common/img/logo.png" alt="住友林業" width="103" class="logo">
+    </a>
+    <div id="menu">
+        <div class="header-btn">
+            <a class="fancybox" href="#popupMenu">
+                <span>メニュー</span>
+            </a>
+        </div>
+    </div>
+    <!-- popupmenu -->
+    <div class="popUpWrap" style="display:none;padding:0;margin:0;">
+        <div id="popupMenu" class="popUpMenu" style="padding:0;margin:0;">
+            <div id="popupMenutitle">メニュー</div>
+            <table>
+                <tbody>
+                <tr>
+                    <td width="50%">
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/ie/lineup/');">商品紹介</a>
+                        </div>
+                    </td>
+                    <td width="50%">
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/ie/style/');">実例ギャラリー</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/ie/modelhouse/');">モデルハウス </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/ie/showroom/');">ショールーム</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/ie/event/');">イベント情報</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/bunjyo/');">分譲住宅・宅地</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/ie/catalog/');">カタログ請求</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/contact/');">お問い合わせ</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="mbtn01">
+                            <a href="http://kikorin.jp/sp/" target="_blank">きこりんの森
+                                <span class="othersite"></span>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mbtn01">
+                            <a href="javascript:http_location('/ie/');">戸建住宅トップへ</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="mbtn02">
+                            <a onclick="$.fancybox.close();" href="javascript:;">閉じる</a>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</header>
+<!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
 
 <div id="sfc_kinoie201701">
     <div class="section is-12">
@@ -126,7 +218,34 @@
     </p>
 </div>
 
-<footer id="global-footer" class="global-footer"></footer>
+<!--<footer id="global-footer" class="global-footer"></footer>-->
+<!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+<footer id="global-footer" class="global-footer">
+    <footer>
+
+        <div class="btn-footerNavi">
+            <p id="backprev"><a href="javascript: void(0);" onclick="history.back();">前ページへ</a></p><span>&nbsp;</span><p id="backtop"><a href="#">ページの先頭へ</a></p>
+        </div>
+
+        <div class="pc-box">
+            <div id="btn-w80"><a id="to-sitetop" href="/ie/">戸建住宅トップへ</a></div>
+            <div id="btn-w80"><a id="to-pc" href="/ie/" onclick="changeView()">PCサイトへ</a></div>
+        </div>
+
+        <div class="attention-clearfix">
+            <ul class="g_ftnav">
+                <li class="g_ftnav01"><a href="/terms/">サイトのご利用について</a></li>
+                <li class="g_ftnav02"><a href="/hogo/">個人情報の取り扱いについて</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <small>
+                Copyright(C) SUMITOMO FORESTRY CO.,LTD.<br>All right reserved.
+            </small>
+        </div>
+    </footer>
+</footer>
+<!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
 
 <script LANGUAGE="JavaScript" type="text/javascript">document.write('<SCR' + 'IPT language="JavaScript" type="text/javascript" src="'+location.protocol+'//a248.e.akamai.net/f/248/45380/20m/dac1.download.akamai.com/45379/sr/js/sfc_smp.js"></SCR' + 'IPT>');</script>
 
