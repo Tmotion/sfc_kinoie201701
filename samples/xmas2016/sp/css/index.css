@@ -1,0 +1,136 @@
+/* CSS Document */
+@charset "utf-8";
+
+/*-------------------------------------------------------------全体定義*/
+body,
+html{
+	font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック
+","MS PGothic","Osaka",sans-serif;
+	height:100%;
+    font-size: 12px;
+    background-image:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style:none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+	border-style:none;
+    vertical-align: bottom;
+}
+
+a:focus{
+	outline: none;
+}
+
+body,div,
+ul,li,
+dl,dt,dd,
+p,h1,h2,h3{
+	margin:0;
+	padding:0;
+}
+
+
+/*-----------------------------------------------------------汎用クラス*/
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+/*----------------------------------------------------------全体適応*/
+#wrap {
+	max-width:640px;
+	margin:0 auto;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.center {
+	text-align: center;
+}
+/*------------------------------------------------------content*/
+
+
+#section01{
+	margin: 0 0 25px 0;
+}
+
+#section01 .image01{
+	margin: 0 0 5px 0;
+}
+
+#section02{
+	margin: 0 0 25px 0;
+}
+
+#section02 .title{
+	margin: 0 0 10px 0;
+}
+
+#section02 .image01{
+	margin: 0 0 10px 0;
+}
+
+#section02 .image02{
+	margin: 0 0 10px 0;
+}
+
+#section02 .image03{
+	margin: 0 0 20px 0;
+}
+
+#section03{
+	margin: 0 0 25px 0;
+}
+
+#section03 .title{
+	margin: 0 0 10px 0;
+}
+
+#section03 .image03,
+#section03 .image02,
+#section03 .image01{
+	position: relative;
+}
+
+#section03 .image01{
+	margin: 0 0 10px 0;
+}
+
+#section03 .image02{
+	margin: 0 0 10px 0;
+}
+
+#section03 .image03{
+	margin: 0 0 15px 0;
+}
+
+#section03 .image03 .link,
+#section03 .image02 .link,
+#section03 .image01 .link{
+	position: absolute;
+	bottom: 3%;
+	left: 0;
+	right: 0;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#section04 .title{
+	margin: 0 0 -20px 0;
+}
+
+
+

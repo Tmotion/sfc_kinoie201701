@@ -161,3 +161,35 @@
     right: 40px;
   }
 }
+
+.indexMapWrap {
+
+  .btnWrap {
+    width: calc(100% - 20px);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .listWrap li {
+    width: 33%;
+  }
+}
+
+.inputListWrap {
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .lisrWrap li {
+    width: 40%;
+  }
+
+  .lisrWrap .select select {
+    -webkit-appearance: none;
+  }
+}
