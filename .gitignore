@@ -1,6 +1,7 @@
 /node_modules
 /bower_components
 /docs/.htaccess
+/docs/.htpasswd
 .idea
 .env
 .DS_Store
