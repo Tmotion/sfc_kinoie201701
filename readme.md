@@ -3,7 +3,7 @@
 
 ## Demo
 
-https://tmotion.github.io/sfc_kinoie201701/
+~~https://tmotion.github.io/sfc_kinoie201701/~~
 
 ## Install
 
